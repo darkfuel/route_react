@@ -4,3 +4,13 @@
  --bs-bg-opacity: 1;
  background-color: #E7153B !important;
 }
+h1{
+ font-weight: 200;
+}
+span{
+ font-weight:700;
+}
+img{
+ height: 200px;
+ width: 200px;
+}

@@ -1,7 +1,7 @@
 import { Navbar, Container, Nav } from 'react-bootstrap/'
 import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope, faCakeCandles } from '@fortawesome/free-solid-svg-icons'
+import { faHouse, faCakeCandles, faBook } from '@fortawesome/free-solid-svg-icons'
 
 const Navigator = () => {
   return (
@@ -9,7 +9,9 @@ const Navigator = () => {
       <Navbar bg='dark' data-bs-theme='dark'>
         <Container>
           <Nav className='me-auto'>
+            <FontAwesomeIcon icon={faHouse} />
             <Link className='nav-item nav-link' to='/'>Home</Link>
+            <FontAwesomeIcon icon={faBook} />
             <Link className='nav-item nav-link' to='/contacto'>Contacto</Link>
           </Nav>
           <Navbar.Brand href='#home'>Happy Cake
