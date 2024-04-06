@@ -1,0 +1,6 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+.bg-dark {
+ --bs-bg-opacity: 1;
+ background-color: #E7153B !important;
+}
