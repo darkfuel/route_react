@@ -13,7 +13,7 @@ const Contacto = () => {
           <Form.Control as='textarea' rows={5} />
         </Form.Group>
       </Form>
-      <Button variant='danger' size='lg'>Enviar</Button>{' '}
+      <Button variant='danger' size='lg'>Enviar</Button>
     </div>
   )
 }

@@ -17,13 +17,6 @@ const Navigator = () => {
           <Navbar.Brand href='#home'>Happy Cake
             {' '}
             <FontAwesomeIcon icon={faCakeCandles} />
-            {/* <img
-              alt=''
-              src='/img/logo.svg'
-              width='30'
-              height='30'
-              className='d-inline-block align-top'
-            /> */}
           </Navbar.Brand>
         </Container>
       </Navbar>

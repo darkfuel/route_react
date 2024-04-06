@@ -1,6 +1,7 @@
 import { Route, Routes } from 'react-router-dom'
 import { Contacto, Inicio, NotFound } from './layouts'
 import Nav from './components/Nav'
+import Footer from './components/Footer'
 
 function App () {
   return (
@@ -11,6 +12,7 @@ function App () {
         <Route path='/contacto' element={<Contacto />} />
         <Route path='*' element={<NotFound />} />
       </Routes>
+      <Footer />
     </>
   )
 }
